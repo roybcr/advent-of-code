@@ -1,8 +1,8 @@
-use aoc::day1::growing_depths;
+use aoc::day1::sonar_sweep;
 
 fn main() -> std::io::Result<()> {
     
-    growing_depths()?;
+    sonar_sweep()?;
     Ok(())
 
 }

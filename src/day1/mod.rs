@@ -8,7 +8,7 @@ fn parse_u32(line: &String) -> u32 {
     line.parse::<u32>().unwrap()
 }
 
-pub fn growing_depths() -> std::io::Result<i32> {
+pub fn sonar_sweep() -> std::io::Result<i32> {
 
     let mut path = std::path::PathBuf::new();
 
